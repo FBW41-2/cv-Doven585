@@ -1,5 +1,21 @@
 header .cvfoto {
 border-radius: 50%;
-width: 100%;
+width: 300px;
+height: 300px;
 overflow:hidden;
+display: block;
+}
+
+nav a {
+    display: block;
+    background-color: gray;
+    margin: 1px;
+    position: relative;
+}
+
+nav a::after {
+    content: ">";
+    position: absolute;
+    right: 5px;
+    color: white;
 }
