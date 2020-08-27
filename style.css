@@ -23,3 +23,30 @@ nav a::after {
     right: 5px;
     color: white;
 }
+
+.status-bar {
+    height: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 5px;
+    }
+    .progress {
+    background-color:red;
+    height: 10px;
+    border-radius: 4px;
+    } 
+
+    h2 {
+font-style: italic;
+ }
+
+ section p {
+     font-style: oblique;
+     color: black;
+     font-weight: bold;
+ }
+
+ .section a {
+color: red;
+
+ }
