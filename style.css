@@ -1,3 +1,24 @@
+
+
+h1 {
+    padding-top: 100px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+  
+}
+
+
+
+
+
+h2 {
+    font-family: 'Orbitron', sans-s
+    
+  
+    
+
+}
+
 header .cvfoto {
 border-radius: 50%;
 width: 150px;
@@ -52,9 +73,11 @@ font-style: italic;
  section p {
      font-style: oblique;
      color: black;
+     font-variant: small-caps;
      
  }
  
 section p a {
     color:blue  ;
+    font-variant: small-caps;
 }
