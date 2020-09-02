@@ -1,3 +1,17 @@
+@media only screen and (min-width: 992px) {
+    nav  {padding:10%;}
+    
+  } 
+
+
+nav li {
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+
+
 #contact {
     text-decoration: none;
 }
@@ -68,15 +82,16 @@ header .cvfoto img {
 }
 nav a {
     display:block;
-    background-color: gray;
+    background-color: grey;
     margin: 1px;
     position: relative;
     text-decoration: none;
+   padding: 0px;
    
 
    }
     
-}
+
 
 nav a::after {
     content: ">";
@@ -84,7 +99,7 @@ nav a::after {
     right: 5px;
     color: white;
 }
-a:hover {
+nav a:hover {
     color: white;
     
     text-decoration: underline;
