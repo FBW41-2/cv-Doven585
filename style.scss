@@ -1,0 +1,94 @@
+#contact {
+	text-decoration: none;
+	li {
+		font-size: 0.9em;
+	}
+}
+#cv {
+	padding-bottom: 100px;
+	padding-top: 100px;
+	font-size: 1.2em;
+}
+#developer {
+	padding-bottom: 100px;
+	padding-top: 100px;
+	font-size: 1.2em;
+}
+#portfolio {
+	padding-bottom: 100px;
+	font-size: 1.2em;
+}
+#skills {
+	padding-bottom: 100px;
+	font-size: 1.2em;
+}
+h1 {
+	padding-top: 100px;
+	padding-right: 30px;
+	padding-bottom: 100px;
+	font-family: 'Cinzel', serif;
+	font-size: 2.2em;
+}
+h2 {
+	font-family: 'Orbitron', sans-s;
+	font-style: italic;
+}
+header {
+	.cvfoto {
+		border-radius: 50%;
+		width: 150px;
+		height: 150px;
+		overflow: hidden;
+		display: block;
+		margin: auto;
+		img {
+			width: 100%;
+		}
+	}
+}
+body {
+	background-color: silver;
+}
+nav {
+	a {
+		display: block;
+		background-color: gray;
+		margin: 1px;
+		position: relative;
+		text-decoration: none;
+		&::after {
+			content: ">";
+			position: absolute;
+			right: 5px;
+			color: white;
+		}
+	}
+}
+a {
+	&:hover {
+		color: white;
+		text-decoration: underline;
+	}
+}
+.status-bar {
+	height: 10px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.progress {
+	background-color: red;
+	height: 10px;
+	border-radius: 4px;
+}
+section {
+	p {
+		font-style: oblique;
+		color: black;
+		font-variant: small-caps;
+		a {
+			color: blue;
+			font-variant: small-caps;
+		}
+	}
+}
